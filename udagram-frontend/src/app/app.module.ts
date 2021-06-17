@@ -12,9 +12,6 @@ import { MenubarComponent } from './menubar/menubar.component';
 
 import { AuthModule } from './auth/auth.module';
 import { ApiService } from './api/api.service';
-import { HomePageModule } from './home/home.module';
-import { FeedModule } from './feed/feed.module';
-import { ApiModule } from './api/api.module';
 
 @NgModule({
   declarations: [
@@ -26,10 +23,7 @@ import { ApiModule } from './api/api.module';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    AuthModule,
-    HomePageModule,
-    FeedModule,
-    ApiModule
+    AuthModule
   ],
   providers: [
     ApiService,
