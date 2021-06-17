@@ -33,6 +33,7 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
   }
 
   const tokenBearer = req.headers.authorization.split(' ');
+
   if (tokenBearer.length != 2) {
     return res.status(401).send({message: 'Malformed token.'});
   }
@@ -98,7 +99,7 @@ router.post('/', async (req: Request, res: Response) => {
   }
 
   const generatedHash = await generatePassword(plainTextPassword);
-
+  // @ts-ignore
   const newUser = await new User({
     email: email,
     passwordHash: generatedHash,
