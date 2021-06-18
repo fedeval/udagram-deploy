@@ -11,7 +11,6 @@ jobs:
       - node/install
       - node/install-yarn
       - checkout
-      # install dependencies in both apps
       - run:
           name: Front End dependencies
           command: |
