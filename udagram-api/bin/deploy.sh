@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-echo "1" | eb init udagram-api --region eu-central-1 && eb use udagram-api-dev \
-eb deploy && \
+echo "1" | eb init udagram-api --region eu-central-1 && eb use udagram-api-dev && \
+eb deploy udagram-api-dev && \
   eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \ 
     AWS_BUCKET=$AWS_BUCKET \
     AWS_REGION=$AWS_DEFAULT_REGION \
