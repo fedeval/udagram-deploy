@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-eb use udagram-api-env && \
+eb use udagram-api-dev && \
   eb deploy && \
     eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \ 
       AWS_BUCKET=$AWS_BUCKET \
