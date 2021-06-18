@@ -6,4 +6,4 @@
 
 ## Architecture Diagram
 
-![alt text](https://github.com/fedeval/udagram-deploy/blob/master/screenshots/Udagram_Architecture_Diagram.png?raw=true)
+![Architecture Diagram](https://github.com/fedeval/udagram-deploy/blob/master/screenshots/Udagram_Architecture_Diagram.png?raw=true)
