@@ -60,7 +60,7 @@ jobs:
           command: |
             npm run api:deploy
 workflows:
-  my-app:
+  udagram:
     jobs:
       - build
       - deploy
