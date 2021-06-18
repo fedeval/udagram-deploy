@@ -53,13 +53,14 @@ Provision the necessary AWS services needed for running the application:
 2. In AWS, provision an S3 bucket for hosting the uploaded files.
 3. In AWS, deploy the API on Elastic Beanstalk and add the API link to the `environment.prod.ts` file in the `udagram-frontend > src > environments`
 
---
+---
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
+---
 ## License
 
 [License](LICENSE.txt)
