@@ -12,18 +12,17 @@ jobs:
       - node/install-yarn
       - checkout
       - run:
+          name: API dependencies
+          command: |
+            npm run api:install
+      - run:
           name: Front End dependencies
           command: |
             npm run frontend:install
       - run:
-          name: API dependencies
-          command: |
-            npm run api:install
-      # build both sides of the app
-      - run:
           name: Build API
           command: |
-            npm run backend:build
+            npm run api:build
       - run:
           name: Build UI
           command: |
