@@ -54,3 +54,8 @@ The pipeline leverages 6 scripts defined in the `package.json` file in the root 
 9. Install all the `udagram-api` dependencies
 10. Create a build artifact for the API
 11. Zips the build artifact and deploys it an Elastic Beanstalk virtual environment
+
+---
+## Diagram
+
+![Pipeline Diagram](https://github.com/fedeval/udagram-deploy/blob/master/screenshots/Udagram_Pipeline_Diagram.png?raw=true)
