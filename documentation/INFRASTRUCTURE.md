@@ -7,3 +7,7 @@
 ## Architecture Diagram
 
 ![Architecture Diagram](https://github.com/fedeval/udagram-deploy/blob/master/screenshots/Udagram_Architecture_Diagram.png?raw=true)
+
+## Live App
+
+The app is available at [http://udagram-fedeval.s3-website.eu-central-1.amazonaws.com](http://udagram-fedeval.s3-website.eu-central-1.amazonaws.com)
